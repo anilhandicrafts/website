@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil Handicrafts - Premium Handmade Crafts from Agra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Anil Handicrafts</h1>
+                <p class="tagline">Agra's Leading Emporium for Handicrafts</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Anil Handicrafts</h1>
+            <p class="hero-subtitle">Agra's Leading Emporium for Textiles & Handicrafts</p>
+            <p class="hero-description">Textiles | Handicrafts | Tea & Spices | Souvenirs | Musical Instruments & More</p>
+            <a href="#products" class="btn btn-primary">Explore Our Collection</a>
+        </div>
+        <!-- Taj Mahal image will be set as background in CSS -->
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section class="image-carousel">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipML39yRYRNZeJ_k0_46CCJR2Vhas-vUZ4lG1sC9=w800-h600-k-no" alt="Anil Handicrafts Showroom" onerror="this.src='https://shopanil.com/images/products/handicrafts/paintings5.jpg'">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://shopanil.com/images/products/womens-collection/sarees.jpg" alt="Sarees Collection">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipNxMRjv9UYW0owmTy17tNJd7ntHqMoAg41fCMge=w800-h600-k-no" alt="Store Interior" onerror="this.src='https://shopanil.com/images/products/handicrafts/wood-carvings.jpg'">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://shopanil.com/images/products/mens-collection/shervani.jpg" alt="Men's Shervani">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipM9byeyxLJzmugh6xIFcmO7jLKkaz9syJ0wFgpK=w800-h600-k-no" alt="Product Display" onerror="this.src='https://shopanil.com/images/products/handicrafts/brass-art.jpg'">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://shopanil.com/images/products/furnishings/bedsheet7.jpg" alt="Furnishings">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://lh5.googleusercontent.com/p/AF1QipP2IUGW7WwuGGV8b390SYkf-uj31e642adQAAMb=w800-h600-k-no" alt="Handicrafts Section" onerror="this.src='https://shopanil.com/images/products/handicrafts/statues6.jpg'">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://shopanil.com/images/products/handicrafts/paintings5.jpg" alt="Mughal Paintings">
+                </div>
+            </div>
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">❮</button>
+            <button class="carousel-btn next" onclick="moveCarousel(1)">❯</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Anil Handicrafts</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Agra's Premier Shopping Destination</h3>
+                    <p>Located right across the prestigious Hotel ITC Mughal on Fatehabad Road, Anil Handicrafts is a sprawling shopping emporium spread across <strong>6,000 sq. feet and 3 floors</strong>. Since our establishment, we have been the trusted choice for tourists and art lovers visiting the city of the Taj Mahal.</p>
+                    
+                    <h3>One-Stop Shopping Experience</h3>
+                    <p>Showcasing an extensive range of authentic Indian products under one roof, we offer our clients the convenience of satisfying all their shopping needs in a single location. With ample parking space and products thoughtfully organized across various sections, we cater to large tour groups and individual travelers alike.</p>
+                    
+                    <h3>What Makes Us Unique</h3>
+                    <p>We are the <strong>only store in Agra</strong> where customers can witness live demonstrations of exquisite miniature Mughal paintings created by a <strong>National Award-winning artist</strong>. This exclusive experience allows visitors to appreciate the intricate artistry that defines our heritage.</p>
+                    
+                    <p>Approximately <strong>40% of our products are handcrafted in-house</strong> by our skilled artisans, ensuring authenticity and superior quality. We have pioneered several innovations in the fields of textiles and handicrafts, continually setting new standards in traditional craftsmanship.</p>
+                    
+                    <h3>Custom Creations & Expert Service</h3>
+                    <p>We specialize in creating <strong>customized dresses</strong> with an extensive range of premium fabrics, tailored to your exact specifications. Our customer-friendly, <strong>multilingual sales team</strong> ensures a comfortable shopping experience for visitors from around the world.</p>
+                    
+                    <p>With long-lasting partnerships with leading names in the tourist industry and a reputation built on trust, quality, and authenticity, Anil Handicrafts continues to be the preferred destination for those seeking genuine Indian handicrafts and textiles.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Taj Mahal - Agra" class="taj-image">
+                    <p class="image-caption">Proudly serving from Agra, home of the Taj Mahal</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <h4>🏢 6,000 sq ft</h4>
+                            <p>3-Floor Emporium</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>🎨 Live Demos</h4>
+                            <p>Award-Winning Artists</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>✋ 40% In-House</h4>
+                            <p>Handcrafted Products</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h4>🌍 Multilingual</h4>
+                            <p>Expert Staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Explore our extensive collection across multiple categories</p>
+            
+            <div class="product-grid">
+                <!-- Women's Collection -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/womens-collection/sarees.jpg" alt="Women's Collection">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('womens')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Women's Collection</h3>
+                        <p>Sarees, Lehengas, Kurtis, Suits, Pashminas, Scarves, Skirts, Jackets, Cashmere Sweaters, Handbags, Artificial Jewellery & Perfumes</p>
+                    </div>
+                </div>
+
+                <!-- Men's Collection -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/mens-collection/shervani.jpg" alt="Men's Collection">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('mens')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Men's Collection</h3>
+                        <p>Modi Jacket, Shervani, Kurta Pajama, Jodhpuri Suit, Shirts, Indo Western, Cashmere Sweaters, Ties & Tailor Made Suits</p>
+                    </div>
+                </div>
+
+                <!-- Kids Collection -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/kids-clothing/girls-lehengas.jpg" alt="Kids Collection">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('kids')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kids Collection</h3>
+                        <p>Stylish clothing for boys and girls including beautiful lehengas, traditional wear, and contemporary outfits for children.</p>
+                    </div>
+                </div>
+
+                <!-- Traditional Art -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/handicrafts/paintings5.jpg" alt="Traditional Art">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('traditional-art')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Traditional Art & Crafts</h3>
+                        <p>Mughal Paintings, Wood Carvings, Brass Art, Wall Masks - Authentic handcrafted art pieces with live demonstrations by award-winning artists.</p>
+                    </div>
+                </div>
+
+                <!-- Decorative Handicrafts -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/handicrafts/statues6.jpg" alt="Decorative Items">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('decorative-items')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Decorative Handicrafts</h3>
+                        <p>Statues, Bone Boxes, Mughal Daggers, Dolls, Resin Figures, Stone Figures & Souvenirs - Unique decorative pieces and perfect mementos from Agra.</p>
+                    </div>
+                </div>
+
+                <!-- Furnishings -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/furnishings/bedsheet7.jpg" alt="Furnishings">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('furnishings')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Furnishings</h3>
+                        <p>Bedsheets & Table Covers, Cushion Covers, Quilts, Embroidery, Premium Fabrics & Incense Sticks for your home décor needs.</p>
+                    </div>
+                </div>
+
+                <!-- Musical Instruments -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/musical-instruments.jpg" alt="Musical Instruments">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('musical')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Musical Instruments</h3>
+                        <p>Traditional Indian musical instruments including Tanpura and other classical instruments for music enthusiasts.</p>
+                    </div>
+                </div>
+
+                <!-- Tea & Spices -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/teaandspices.jpg" alt="Tea and Spices">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('tea-spices')">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tea & Spices</h3>
+                        <p>Authentic Indian tea blends and aromatic spices sourced from the finest regions of India for connoisseurs worldwide.</p>
+                    </div>
+                </div>
+
+                <!-- Custom Orders -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://shopanil.com/images/products/mens-collection/tailor-made-suits-shirts-and-trousers.jpg" alt="Custom Orders">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary" onclick="openProductModal('custom')">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tailor Made & Custom Orders</h3>
+                        <p>Expert tailoring services for custom suits, shirts, trousers, and dresses with a wide selection of premium fabrics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <p class="section-subtitle">What our valued customers say about us</p>
+            
+            <div class="reviews-carousel-container">
+                <div class="reviews-carousel-track">
+                    <!-- Slide 1 -->
+                    <div class="reviews-carousel-slide">
+                        <div class="reviews-slide-grid">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"This store is a must-visit in Agra! We watched the live Mughal painting demonstration - absolutely mesmerizing. The quality and authenticity of their handicrafts are outstanding. Highly recommend!"</p>
+                                <div class="reviewer">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>London, UK</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Amazing shopping experience! The multilingual staff made us feel very comfortable. Bought custom-made kurtas and a beautiful pashmina - the craftsmanship is exceptional. Perfect souvenirs from our India trip."</p>
+                                <div class="reviewer">
+                                    <h4>David Martinez</h4>
+                                    <p>Barcelona, Spain</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Best shopping experience in Agra! The store is huge with so many beautiful items. The staff was patient and knowledgeable. We purchased a stunning bedsheet set and some spices to take home."</p>
+                                <div class="reviewer">
+                                    <h4>Emma Thompson</h4>
+                                    <p>Sydney, Australia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="reviews-carousel-slide">
+                        <div class="reviews-slide-grid">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Incredible collection of authentic Indian products! The owner personally showed us the miniature paintings being made - a truly unique experience. Bought gifts for the entire family. Worth every rupee!"</p>
+                                <div class="reviewer">
+                                    <h4>Hans Mueller</h4>
+                                    <p>Munich, Germany</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Our tour guide brought us here and we're so glad! Three floors of beautiful handicrafts, textiles, and souvenirs. The quality is far superior to other tourist shops. Very professional and honest pricing."</p>
+                                <div class="reviewer">
+                                    <h4>Jennifer Lee</h4>
+                                    <p>California, USA</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Excellent service and authentic products. The handmade clothes are of superior quality with beautiful traditional designs. Very happy with my purchase!"</p>
+                                <div class="reviewer">
+                                    <h4>Priya Sharma</h4>
+                                    <p>Delhi, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="reviews-carousel-slide">
+                        <div class="reviews-slide-grid">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Wonderful collection of traditional Indian textiles and handicrafts. The staff took time to explain the history and craftsmanship of each item. The custom tailoring service is exceptional - got a perfect-fit sherwani!"</p>
+                                <div class="reviewer">
+                                    <h4>Robert Anderson</h4>
+                                    <p>New York, USA</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"This is the best handicraft store in Agra! Authentic products, great prices, and friendly staff who speak multiple languages. Purchased several items including beautiful marble inlay work. Highly recommended!"</p>
+                                <div class="reviewer">
+                                    <h4>Marie Dubois</h4>
+                                    <p>Paris, France</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Amazing variety under one roof! From traditional sarees to modern Indo-Western wear, handicrafts to home furnishings. The live painting demonstration was a highlight. Excellent shopping destination!"</p>
+                                <div class="reviewer">
+                                    <h4>Michael Chen</h4>
+                                    <p>Singapore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="reviews-carousel-slide">
+                        <div class="reviews-slide-grid">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"We spent over 2 hours exploring all three floors - so much to see! The quality of products is excellent and the staff is very helpful. Bought a stunning carpet and some beautiful jewelry as gifts."</p>
+                                <div class="reviewer">
+                                    <h4>Isabella Rossi</h4>
+                                    <p>Milan, Italy</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Outstanding collection of Indian handicrafts and textiles! The owner is very knowledgeable and passionate about preserving traditional arts. Got some beautiful pashminas and a hand-carved wooden box. Will definitely come back!"</p>
+                                <div class="reviewer">
+                                    <h4>Tom Williams</h4>
+                                    <p>Toronto, Canada</p>
+                                </div>
+                            </div>
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Perfect place to shop for authentic Indian souvenirs! Reasonable prices, genuine products, and excellent customer service. The tea and spice collection is wonderful. A must-visit when in Agra!"</p>
+                                <div class="reviewer">
+                                    <h4>Yuki Tanaka</h4>
+                                    <p>Tokyo, Japan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="reviews-carousel-btn prev" onclick="moveReviewsCarousel(-1)">❮</button>
+                <button class="reviews-carousel-btn next" onclick="moveReviewsCarousel(1)">❯</button>
+            </div>
+            <div class="reviews-carousel-dots" id="reviewsCarouselDots"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get in touch with us for inquiries and custom orders</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>Opp. Hotel ITC Mughal,<br>
+                        Fatehabad Road,<br>
+                        Agra - 282001, Uttar Pradesh, India</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Contact Persons</h4>
+                        <p><strong>Mr. Anil Jain:</strong> +91 9837023422<br>
+                        <strong>Mr. Manish Jain:</strong> +91 8861448723 
+                        <a href="https://wa.me/918861448723?text=Hello,%20I'm%20interested%20in%20your%20products.%20Please%20provide%20more%20details." target="_blank" rel="noopener noreferrer" class="whatsapp-inline-icon-link" title="Chat on WhatsApp">
+                            <svg viewBox="0 0 24 24" class="whatsapp-inline-icon">
+                                <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 01-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.46-.01z"/>
+                            </svg>
+                        </a><br>
+                        <strong>Mr. Prashant Jain:</strong> +91 9758438656 
+                        <a href="https://wa.me/919758438656?text=Hello,%20I'm%20interested%20in%20your%20products.%20Please%20provide%20more%20details." target="_blank" rel="noopener noreferrer" class="whatsapp-inline-icon-link" title="Chat on WhatsApp">
+                            <svg viewBox="0 0 24 24" class="whatsapp-inline-icon">
+                                <path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 012.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 01-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.46-.01z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p>agra.anilhandicrafts@gmail.com<br>
+                        mjain8300@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Business Hours</h4>
+                        <p>Open 7 Days a Week<br>
+                        Monday - Sunday: 9:30 AM - 9:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest">
+                                <option value="">Select Product Interest</option>
+                                <option value="handmade-clothes">Handmade Clothes</option>
+                                <option value="designer-clothes">Designer Clothes</option>
+                                <option value="carpets">Handmade Carpets</option>
+                                <option value="antiques">Antiques</option>
+                                <option value="jewelry">Jewelry</option>
+                                <option value="custom">Custom Order</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Anil Handicrafts</h3>
+                    <p>Preserving the rich heritage of Indian craftsmanship since generations. Quality, authenticity, and tradition in every piece.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li>Handmade Clothes</li>
+                        <li>Designer Wear</li>
+                        <li>Handmade Carpets</li>
+                        <li>Antiques</li>
+                        <li>Jewelry</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Opp. Hotel ITC Mughal,<br>
+                    Fatehabad Road, Agra - 282001</p>
+                    <p>📞 +91 8861448723<br>
+                    📞 +91 9837023422</p>
+                    <p>✉️ agra.anilhandicrafts@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anil Handicrafts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918861448723?text=Hello,%20I'm%20interested%20in%20your%20products.%20Please%20provide%20more%20details." class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" class="whatsapp-icon">
+            <path fill="currentColor" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.987 0-7.51 6.11-13.62 13.62-13.62s13.62 6.11 13.62 13.62-6.557 13.063-14.073 13.063zM21.305 19.26c-0.346-0.174-2.049-1.007-2.366-1.123-0.316-0.117-0.547-0.174-0.776 0.174s-0.892 1.123-1.094 1.347c-0.201 0.224-0.402 0.251-0.748 0.076-0.346-0.174-1.461-0.539-2.784-1.72-1.028-0.919-1.723-2.054-1.925-2.401-0.201-0.346-0.022-0.534 0.152-0.707 0.156-0.156 0.346-0.402 0.518-0.603 0.174-0.201 0.231-0.346 0.346-0.571 0.117-0.224 0.058-0.427-0.028-0.603s-0.776-1.87-1.063-2.565c-0.28-0.672-0.56-0.58-0.776-0.591-0.201-0.010-0.427-0.012-0.656-0.012s-0.603 0.085-0.92 0.427c-0.316 0.346-1.206 1.179-1.206 2.873s1.235 3.333 1.406 3.561c0.174 0.224 2.425 3.732 5.872 5.234 0.821 0.354 1.462 0.566 1.962 0.724 0.825 0.262 1.577 0.225 2.168 0.137 0.661-0.099 2.049-0.835 2.335-1.642 0.288-0.807 0.288-1.501 0.201-1.642-0.083-0.146-0.313-0.234-0.659-0.408z"/>
+        </svg>
+    </a>
+
+    <!-- Image Gallery Modal -->
+    <div id="imageGalleryModal" class="gallery-modal">
+        <div class="gallery-modal-content">
+            <span class="gallery-close" onclick="closeGallery()">&times;</span>
+            <h2 id="galleryTitle" class="gallery-title"></h2>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
