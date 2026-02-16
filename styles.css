@@ -1115,3 +1115,49 @@ html {
     width: 1em;
     height: 1em;
 }
+
+/* Kayak Link */
+.kayak-link {
+    text-decoration: none;
+    color: var(--text-light);
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    transition: all 0.3s ease;
+}
+
+.kayak-link:hover {
+    color: var(--primary-color);
+    transform: translateX(5px);
+}
+
+.kayak-logo {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.kayak-link-text {
+    display: inline-block;
+}
+
+.kayak-link strong {
+    color: var(--primary-color);
+    font-size: 1.05rem;
+}
+
+.kayak-subtitle {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    display: block;
+    margin-top: 3px;
+}
+
+.kayak-type {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-style: italic;
+    display: block;
+    margin-top: 3px;
+}
