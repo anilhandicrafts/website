@@ -59,14 +59,12 @@ window.addEventListener('scroll', () => {
 const contactForm = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
 
-contactForm.addEventListener('submit', function(e) {
+contactForm.addEventListener('submit', async function(e) {
     e.preventDefault();
     
     // Get form values
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
-    const interest = document.getElementById('interest').value;
     const message = document.getElementById('message').value;
     
     // Basic validation
@@ -80,27 +78,34 @@ contactForm.addEventListener('submit', function(e) {
         return;
     }
     
-    // Simulate form submission (In production, you would send this to a server)
-    // You can integrate with services like FormSpree, EmailJS, or your own backend
+    // Show sending message
+    showFormMessage('Sending your message...', 'info');
     
-    setTimeout(() => {
-        showFormMessage('Thank you for your message! We will get back to you soon.', 'success');
-        contactForm.reset();
+    try {
+        // Submit to Web3Forms
+        const formData = new FormData(contactForm);
         
-        // Hide success message after 5 seconds
-        setTimeout(() => {
-            formMessage.style.display = 'none';
-        }, 5000);
-    }, 1000);
-    
-    // Example: Log form data (remove in production)
-    console.log('Form Data:', {
-        name,
-        email,
-        phone,
-        interest,
-        message
-    });
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showFormMessage('Thank you for your message! We will get back to you soon.', 'success');
+            contactForm.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        } else {
+            showFormMessage('Oops! There was a problem sending your message. Please try again or contact us directly.', 'error');
+        }
+    } catch (error) {
+        showFormMessage('Oops! There was a problem sending your message. Please try again or contact us directly.', 'error');
+    }
 });
 
 // Form Message Display
