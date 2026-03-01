@@ -189,6 +189,46 @@ function openProductModal(productType) {
                 { url: 'https://shopanil.com/images/products/handicrafts/wall-masks.jpg', title: 'Wall Masks' }
             ]
         },
+        'fine-art': {
+            title: 'Miniature Paintings & Fine Art',
+            images: [
+                { url: 'https://shopanil.com/images/products/handicrafts/paintings5.jpg', title: 'Mughal Miniature Paintings' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/TP-2-sq.jpg', title: 'Swarn Krishna — Thangka Painting' },
+                { url: 'https://shopanil.com/images/products/handicrafts/wood-carvings.jpg', title: 'Wood Carvings' },
+                { url: 'https://shopanil.com/images/products/handicrafts/brass-art.jpg', title: 'Brass Art' },
+                { url: 'https://shopanil.com/images/products/handicrafts/wall-masks.jpg', title: 'Wall Masks' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/08/MB-1-sq.jpg', title: 'Royal Indian Lady — Rajasthani Craft' }
+            ]
+        },
+        'divine-collection': {
+            title: 'Sacred & Divine Collection',
+            images: [
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MG-3-sq.jpg', title: 'Ganesha — Makrana Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/MG-51-sq.jpg', title: 'Sadashiv Shiva — Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MG-9-sq.jpg', title: 'Veer Hanuman Ji — Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MG-22-sq.jpg', title: 'Saraswati Maa on Lotus' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MG-23-sq.jpg', title: 'Durga Maa — Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/MG-32-sq.jpg', title: 'Sai Baba — Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/MD-5-sq.jpg', title: 'Nostalgic Saraswati — Marble Dust' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MG-16-sq.jpg', title: 'Radha Krishna Ras — Marble' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/WS-1-sq.jpg', title: 'Rakshak Ganesh — Wood' },
+                { url: 'https://shopanil.com/images/products/handicrafts/statues6.jpg', title: 'Statues' },
+                { url: 'https://shopanil.com/images/products/handicrafts/stone-figures.jpg', title: 'Stone Figures' }
+            ]
+        },
+        'curators-treasure': {
+            title: "Curator's Treasure",
+            images: [
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/CB-6-sq.jpg', title: 'Elephant with Miniature Painting' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/CB-1-sq.jpg', title: 'Mughal Chest' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/08/MB-1-sq.jpg', title: 'Royal Indian Lady — Rajasthani Craft' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/TP-2-sq.jpg', title: 'Swarn Krishna — Thangka Painting' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/12/BR-27-sq.jpg', title: 'Kalpavriksha Radha Krishna — Brass' },
+                { url: 'https://shopanil.com/images/products/handicrafts/mughal-daggers.jpg', title: 'Mughal Daggers' },
+                { url: 'https://shopanil.com/images/products/handicrafts/bone-boxes.jpg', title: 'Bone Inlay Boxes' },
+                { url: 'https://shopanil.com/images/products/handicrafts/dolls.jpg', title: 'Traditional Dolls' }
+            ]
+        },
         'decorative-items': {
             title: 'Decorative Handicrafts',
             images: [
@@ -220,13 +260,28 @@ function openProductModal(productType) {
             ]
         },
         'furnishings': {
-            title: 'Furnishings',
+            title: 'Home Decor & Furnishings',
             images: [
                 { url: 'https://shopanil.com/images/products/furnishings/bedsheet7.jpg', title: 'Bedsheets & Table Covers' },
                 { url: 'https://shopanil.com/images/products/furnishings/cushion-covers.jpeg', title: 'Cushion Covers' },
                 { url: 'https://shopanil.com/images/products/furnishings/quilts.jpg', title: 'Quilts' },
                 { url: 'https://shopanil.com/images/products/furnishings/embroidery.jpg', title: 'Embroidery' },
                 { url: 'https://shopanil.com/images/products/furnishings/fabrics.jpg', title: 'Fabrics' },
+                { url: 'https://shopanil.com/images/products/furnishings/incense-sticks.jpg', title: 'Incense Sticks' }
+            ]
+        },
+        'home-decor': {
+            title: 'Home Decor & Furnishings',
+            images: [
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/09/MF-14-sq-1.jpg', title: 'Lady with Parrot — Brass' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/BR-7-sq.jpg', title: 'Rustic Buddha — Brass' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/BR-4-sq.jpg', title: 'Medicine Buddha — Brass & Stone' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/12/BR-27-sq.jpg', title: 'Kalpavriksha Radha Krishna — Brass' },
+                { url: 'https://kuberhandicraft.com/wp-content/uploads/2019/11/BR-13-sq.jpg', title: 'Parrot Lamp (Vilakku) — Brass' },
+                { url: 'https://shopanil.com/images/products/furnishings/bedsheet7.jpg', title: 'Bedsheets & Table Covers' },
+                { url: 'https://shopanil.com/images/products/furnishings/cushion-covers.jpeg', title: 'Cushion Covers' },
+                { url: 'https://shopanil.com/images/products/furnishings/quilts.jpg', title: 'Quilts' },
+                { url: 'https://shopanil.com/images/products/furnishings/embroidery.jpg', title: 'Embroidery' },
                 { url: 'https://shopanil.com/images/products/furnishings/incense-sticks.jpg', title: 'Incense Sticks' }
             ]
         },
@@ -239,13 +294,28 @@ function openProductModal(productType) {
         'tea-spices': {
             title: 'Tea & Spices',
             images: [
-                { url: 'https://shopanil.com/images/products/teaandspices.jpg', title: 'Tea and Spices' }
+                { url: 'https://shopanil.com/images/products/teaandspices.jpg', title: 'Anil Handicrafts — Tea & Spices' },
+                { url: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&q=80', title: 'Premium Darjeeling Tea' },
+                { url: 'https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=600&q=80', title: 'Assam Herbal Blend' },
+                { url: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&q=80', title: 'Masala Chai — Spiced Indian Tea' },
+                { url: 'https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?w=600&q=80', title: 'Fresh Tea Leaves' },
+                { url: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80', title: 'Colourful Indian Spices' },
+                { url: 'https://images.unsplash.com/photo-1505253304499-671c55fb57fe?w=600&q=80', title: 'Authentic Spice Market' }
             ]
         },
         'custom': {
             title: 'Tailor Made & Custom Orders',
             images: [
-                { url: 'https://shopanil.com/images/products/mens-collection/tailor-made-suits-shirts-and-trousers.jpg', title: 'Custom Tailoring' }
+                { url: 'https://shopanil.com/images/products/mens-collection/tailor-made-suits-shirts-and-trousers.jpg', title: 'Tailor Made Suits, Shirts & Trousers' },
+                { url: 'https://shopanil.com/images/products/mens-collection/shervani.jpg', title: 'Custom Sherwani' },
+                { url: 'https://shopanil.com/images/products/mens-collection/jodhpuri-suit.jpg', title: 'Custom Jodhpuri Suit' },
+                { url: 'https://shopanil.com/images/products/mens-collection/kurta-pajama1.jpg', title: 'Custom Kurta Pajama' },
+                { url: 'https://shopanil.com/images/products/mens-collection/indo-western.jpg', title: 'Indo Western — Made to Measure' },
+                { url: 'https://shopanil.com/images/products/womens-collection/suits.jpg', title: 'Custom Ladies Suits' },
+                { url: 'https://shopanil.com/images/products/womens-collection/lehengas2.jpg', title: 'Custom Lehenga' },
+                { url: 'https://shopanil.com/images/products/womens-collection/kurtis.jpg', title: 'Custom Kurtis' },
+                { url: 'https://shopanil.com/images/products/womens-collection/jackets.jpg', title: 'Custom Embroidered Jackets' },
+                { url: 'https://shopanil.com/images/products/mens-collection/modi-jacket.jpg', title: 'Custom Modi Jacket' }
             ]
         }
     };
@@ -287,6 +357,12 @@ function openGallery(title, images) {
         };
         
         imgElement.src = img.url;
+
+        // Click anywhere on the gallery item to open lightbox
+        item.addEventListener('click', () => {
+            openLightbox(img.url, img.title);
+        });
+        item.style.cursor = 'zoom-in';
         
         const titleDiv = document.createElement('div');
         titleDiv.className = 'gallery-item-title';
@@ -300,6 +376,45 @@ function openGallery(title, images) {
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
 }
+
+// Open Image Lightbox
+function openLightbox(src, title) {
+    const lb = document.getElementById('imageLightbox');
+    const lbImg = document.getElementById('lightboxImg');
+    const lbCaption = document.getElementById('lightboxCaption');
+
+    lbImg.src = src;
+    lbImg.alt = title;
+    lbCaption.textContent = title;
+
+    lb.classList.add('active');
+    // Gallery modal stays behind; lightbox is higher z-index
+}
+
+// Close Lightbox
+function closeLightbox() {
+    const lb = document.getElementById('imageLightbox');
+    lb.classList.remove('active');
+}
+
+// Close lightbox when clicking outside the content box
+function handleLightboxOutsideClick(event) {
+    if (event.target === document.getElementById('imageLightbox')) {
+        closeLightbox();
+    }
+}
+
+// Escape key closes lightbox first, then gallery
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const lb = document.getElementById('imageLightbox');
+        if (lb && lb.classList.contains('active')) {
+            closeLightbox();
+        } else {
+            closeGallery();
+        }
+    }
+});
 
 // Close Image Gallery Modal
 function closeGallery() {
