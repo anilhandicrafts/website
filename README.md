@@ -1,129 +1,74 @@
-# Anil Handicrafts Website
+# Anil Handicrafts - Image Directory
 
-A beautiful, responsive website for Anil Handicrafts - a premium handicraft business based in Agra, Uttar Pradesh, India.
+This folder contains images for the Anil Handicrafts website.
 
-## Features
+## Required Images:
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Hero Section**: Eye-catching hero section with Taj Mahal background image
-- **About Section**: Information about the business with Taj Mahal image
-- **Products Catalog**: Showcase of 6 product categories:
-  - Handmade Clothes
-  - Designer Clothes
-  - Handmade Carpets
-  - Antiques
-  - Jewelry
-  - Custom Orders
-- **Customer Reviews**: Display of customer testimonials with star ratings
-- **Contact Form**: Functional contact form for customer inquiries
-- **Smooth Animations**: Scroll animations and hover effects
-- **Mobile Navigation**: Hamburger menu for mobile devices
+### 1. **tajmahal.jpg**
+   - Image of the Taj Mahal
+   - Used in the About section
+   - Recommended size: 800x600px or higher
+   - You can download a free image from: https://unsplash.com/s/photos/taj-mahal
 
-## Technologies Used
+### 2. **womens-collection.jpg**
+   - Image of women's traditional Indian clothing (sarees, lehengas, etc.)
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with CSS Grid and Flexbox
-- **JavaScript**: Interactive features and form handling
-- **Google Fonts**: Playfair Display and Poppins fonts
+### 3. **mens-collection.jpg**
+   - Image of men's traditional wear (shervani, Modi jacket, etc.)
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-## Getting Started
+### 4. **kids-collection.jpg**
+   - Image of children's traditional clothing
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-1. **Open the website**:
-   - Simply open `index.html` in your web browser
-   - Or use a local server (recommended for best experience)
+### 5. **handicrafts.jpg**
+   - Image of Indian handicrafts, paintings, or wood carvings
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-2. **Using a local server**:
-   ```bash
-   # Using Python 3
-   python3 -m http.server 8000
-   
-   # Using Python 2
-   python -m SimpleHTTPServer 8000
-   
-   # Using Node.js (if you have http-server installed)
-   npx http-server
-   ```
-   Then open http://localhost:8000 in your browser
+### 6. **furnishings.jpg**
+   - Image of bedsheets, cushion covers, or home textiles
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-## Adding Product Images
+### 7. **musical-instruments.jpg**
+   - Image of tanpura or other Indian musical instruments
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-1. Navigate to the `images` folder
-2. Add the following images with exact names:
-   - `tajmahal.jpg` - Taj Mahal image for About section
-   - `handmade-clothes.jpg` - Handmade clothes
-   - `designer-clothes.jpg` - Designer clothes
-   - `carpets.jpg` - Handmade carpets
-   - `antiques.jpg` - Antique items
-   - `jewelry.jpg` - Handmade jewelry
-   - `custom.jpg` - Custom orders
+### 8. **tea-spices.jpg**
+   - Image of Indian tea or spices
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-See `images/README.md` for recommended image sizes and sources.
+### 9. **custom.jpg**
+   - Image representing tailoring or custom orders
+   - Used in the Products section
+   - Recommended size: 400x300px or higher
 
-## Customization
+## Where to Get Images:
 
-### Contact Information
-Update the contact details in `index.html`:
-- Address
-- Phone number
-- Email address
-- Business hours
+### Free Stock Photo Websites:
+- **Unsplash**: https://unsplash.com
+- **Pexels**: https://pexels.com
+- **Pixabay**: https://pixabay.com
 
-### Colors
-Modify the color scheme in `styles.css` by changing the CSS variables:
-```css
-:root {
-    --primary-color: #8B4513;
-    --secondary-color: #DAA520;
-    --accent-color: #FF6B35;
-    /* ... */
-}
-```
+### Search Terms:
+- "Indian saree"
+- "Indian sherwani"
+- "Traditional Indian clothes"
+- "Indian handicrafts"
+- "Indian textiles"
+- "Tanpura instrument"
+- "Indian spices"
+- "Taj Mahal"
+- "Indian home furnishings"
 
-### Form Integration
-The contact form currently shows a success message. To integrate with a backend:
-1. Use a service like **FormSpree**, **EmailJS**, or **Netlify Forms**
-2. Or connect to your own backend API
-3. Update the form handling in `script.js`
+## Note:
+The website will still work without these images (gradient backgrounds will be shown), but adding actual product images will greatly enhance the visual appeal and professionalism of the website.
 
-## Browser Compatibility
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
-
-## Structure
-
-```
-anilhandicrafts/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styles
-├── script.js           # JavaScript functionality
-├── images/             # Image directory
-│   └── README.md       # Image requirements guide
-└── README.md           # This file
-```
-
-## Future Enhancements
-
-Potential features to add:
-- Shopping cart functionality
-- Product detail pages
-- Image gallery/lightbox
-- Social media integration
-- Multi-language support
-- Blog section
-- Newsletter subscription
-- WhatsApp integration
-- Payment gateway integration
-
-## Support
-
-For questions or support, please contact:
-- Email: info@anilhandicrafts.com
-- Location: Agra, Uttar Pradesh, India
-
-## License
-
-Copyright © 2026 Anil Handicrafts. All rights reserved.
+Simply download the images and save them in this folder with the exact names listed above.

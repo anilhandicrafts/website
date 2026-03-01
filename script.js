@@ -41,19 +41,36 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Navbar Scroll Effect
 let lastScroll = 0;
 const navbar = document.querySelector('.navbar');
+const scrollTopBtn = document.getElementById('scrollTopBtn');
 
 window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
-    
-    // Add shadow on scroll
-    if (currentScroll > 50) {
-        navbar.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
+
+    // Scrolled state — add rich backdrop-filter class
+    if (currentScroll > 60) {
+        navbar.classList.add('scrolled');
     } else {
-        navbar.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+        navbar.classList.remove('scrolled');
     }
-    
+
+    // Show / hide scroll-to-top button
+    if (currentScroll > 400) {
+        scrollTopBtn.classList.add('visible');
+    } else {
+        scrollTopBtn.classList.remove('visible');
+    }
+
     lastScroll = currentScroll;
 });
+
+// Scroll to top
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', scrollToTop);
+}
 
 // Contact Form Handling
 const contactForm = document.getElementById('contactForm');
